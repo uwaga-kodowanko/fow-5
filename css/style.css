@@ -893,6 +893,7 @@ html, body {
 
     /* speakers */
     .speaker {
+        max-width: 1000px;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
