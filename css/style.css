@@ -303,7 +303,7 @@ html, body {
 }
 
 .section {
-    margin-bottom: 5rem;
+    margin-bottom: 5.5rem;
 }
 
 .section__title {
@@ -458,31 +458,6 @@ html, body {
     font-size: 0.9rem;
 }
 
-/* term */
-.term__wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding: 2.5rem 0;
-}
-
-.section__paragraph--term {
-    color: #96d86c;
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 2;
-}
-
 /* speakers */
 .speakers__wrapper {
     display: -webkit-box;
@@ -585,6 +560,30 @@ html, body {
     font-weight: 500;
 }
 
+/* term */
+.term__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.section__paragraph--term {
+    color: #96d86c;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2;
+}
+
 /* event */
 .event__wrapper {
     display: -webkit-box;
@@ -619,7 +618,7 @@ html, body {
     color: #96d86c;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 700;
     padding: 1rem 2rem;
     border: 2px solid #96d86c;
@@ -635,26 +634,6 @@ html, body {
     -webkit-box-shadow: inset 400px 50px 0 0 #96d86c;
     box-shadow: inset 400px 50px 0 0 #96d86c;
     color: #fff;
-}
-
-.previous-events {
-    margin: 3rem 0;
-}
-
-.previous-events__paragraph {
-    font-size: 1.2rem;
-    line-height: 1.5;
-}
-
-.previous-events__link {
-    color: #575757;
-    -webkit-transition: color 0.15s;
-    -o-transition: color 0.15s;
-    transition: color 0.15s;
-}
-
-.previous-events__link:hover {
-    color: #000000;
 }
 
 /* gallery */
@@ -909,12 +888,6 @@ html, body {
 
 /* media queries*/
 @media only screen and (min-width: 900px) {
-
-    /* about-us */
-    .section {
-        margin-bottom: 8rem;
-    }
-
     /* navigation */
     .navigation__link {
         font-size: 1.5rem;
@@ -985,6 +958,11 @@ html, body {
     .speaker__text {
         width: 50%;
         text-align: left;
+    }
+
+    /* event */
+    .event__btn {
+        font-size: 2rem;
     }
 
     /* gallery */
